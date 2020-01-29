@@ -1,0 +1,16 @@
+language: node_js
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+before_deploy:
+  - "npx webpack --no-progress --hide-modules --config=webpack.config.js --prod"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 93c91fefb70269bcb882eb92697a728bb5bae0d6
+  on:
+    branch: master
