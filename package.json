@@ -41,6 +41,7 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
+    "@wikimedia/jquery.i18n": "^1.0.7",
     "jquery": "^3.4.1"
   }
 }

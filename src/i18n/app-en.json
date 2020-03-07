@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adyahtha"
+		],
+		"last-updated": "2020-02-01",
+		"locale": "en",
+		"message-documentation": "qqq"
+	},
+	"locale_switch":"తెలుగు",
+    "app": {
+		"welcome":"Welcome to",
+		"title":"Sakala Jotishya Nilayam",
+		"description":"Sakala Jyothishya Nilayam, is your place to unlock mysteries of your life with horoscope, planets and psychic reading."
+	},
+	"about":{
+		"heading_main":"About <span>Sakala Jotishya Nilayam</span>",
+		"me":"Sakala Jyothish Nilayam was located at Chinmaya Nagar,Anantapur. We provide service to the customers both local and as well as other parts of Anantapur. We believe that customer satisfaction is as important as our products and services, have helped this establishment garner a vast base of customers.",
+		"text1":"Sri  Rodham Krishnasastri father Sri Lakshmipathi Shastri, grandfather Chandrasekhara Shastri and great-grandfather Sri Gangadhar Shastri were Astrological family from ancient times and His wife Ms. Kalpana is from the Astrol family.",
+		"text2":"Their daily routine  beginning with Shivaradhana, Rudra Namaka, Chamaka recitation and seeing astrology and planetary horoscope,  explaining it in detail, providing compensation for that and elaborating severity of the problem."
+	},
+	"services":{
+		"heading_main":"Our <span>services</span>"
+	},
+	"contact":{
+		"heading_main":"Get in <span>Touch</span>"
+	},
+	"label":{   
+		"about_us":"About Us",
+		"appointments":"Appointments",
+		"contact":"Contact",
+		"contact_us":"Contact Us",
+		"about":"About",
+		"home":"Home",
+		"our":"Our",    
+		"services":"Services",
+		"read_more":"Read More",
+		"address":"Address",
+		"phone":"Phone",
+		"email":"Email"		
+	}
+   
+}

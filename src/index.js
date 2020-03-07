@@ -1,7 +1,6 @@
 import './style.scss';
 import './css/default.scss';
 import './css/app.scss';
-import './js/jquery.localize.min.js';
 
 console.log('PWA working!');
 

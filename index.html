@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xml:lang="en" lang="en">
 
 <head>
     <title>Sakala Jotishya Nilayam</title>
@@ -211,21 +211,24 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
                     <li class="nav-item active">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link" data-localize="label.home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About us</a>
+                        <a href="#about" class="nav-link" data-localize="label.about_us">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#services" class="nav-link" data-localize="label.services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link" data-localize="label.contact">Contact</a>
                     </li>
                 </ul>
             </div>
-            <div class="hs_btn_wrapper d-none d-sm-block">
-                <a href="#" class="btn btn-outline btn-round active">Appointments</a>
+             <!--<div class="hs_btn_wrapper d-none d-sm-block">
+                <a href="#" class="btn btn-outline btn-round active" data-localize="label.appointments">Appointments</a> 
+            </div>-->
+            <div class="hs_btn_wrapper d-sm-block">
+                <a href="javascript:void(0);" onclick="switchLocalize();" data-localize="locale_switch">English</a>
             </div>
         </div>
     </nav>
@@ -239,13 +242,13 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-10 mt-5">
                             <div class="home-title text-center">
-                                <h5 class="sub-title text-light mb-3">Welcome to</h5>
-                                <h1 class="display-3 text-white title">Sakala Jotishya Nilayam</h1>
-                                <p class="text-white-50 mx-auto para-desc">
+                                <h5 class="sub-title text-light mb-3" data-localize="app.welcome">Welcome to</h5>
+                                <h1 class="display-3 text-white title" data-localize="app.title">Sakala Jotishya Nilayam</h1>
+                                <p class="text-white-50 mx-auto para-desc" data-localize="app-description">
                                     Sakala Jyothishya Nilayam, is your place to unlock mysteries of your life with horoscope, planets and psychic reading.
                                 </p>
                                 <div class="mt-4 pt-2">
-                                    <a href="#contact" class="btn btn-outline btn-round active">Contact Us<i
+                                    <a href="#contact" class="btn btn-outline btn-round active" data-localize="label.contact_us">Contact Us<i
                                             class="mdi mdi-download ml-2"></i></a>
                                 </div>
                                 <div class="mt-4 pt-2">
@@ -264,11 +267,11 @@
     <section  class="hs_sharing_main_wrapper sharing_page_wrapper"  id="sharing">
         <div class="navbar-sidebar ">
             <ul class="social-icons list">
-                <li class="list-item"><a href="#" class=""><i class="fab fa-facebook-f"></i></a></li>
-                <li class="list-item"><a href="#" class=""><i class="fab fa-whatsapp"></i></a></li>
-                <li class="list-item"><a href="#" class=""><i class="fab fa-instagram"></i></a></li>
-                <li class="list-item"><a href="#" class=""><i class="fab fa-google-plus"></i></a></li>
-                <li class="list-item"><a href="#" class=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="list-item"><a href="javascript:void(0);" class=""><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-item"><a href="javascript:void(0);" class=""><i class="fab fa-whatsapp"></i></a></li>
+                <li class="list-item"><a href="javascript:void(0);" class=""><i class="fab fa-instagram"></i></a></li>
+                <li class="list-item"><a href="javascript:void(0);" class=""><i class="fab fa-google-plus"></i></a></li>
+                <li class="list-item"><a href="javascript:void(0);" class=""><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
     </section>
@@ -285,32 +288,41 @@
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="hs_about_heading_main_wrapper">
                         <div class="hs_about_heading_wrapper">
-                            <h2>About <span>Sakala Jotishya Nilayam</span></h2>
+                            <h2 data-localize="about.heading_main">About <span>Sakala Jotishya Nilayam</span></h2>
                             <h4><span>&nbsp;</span></h4>
                         </div>
                     </div>
-                    <div class="hs_about_right_cont_wrapper">
-						<h1>Krishnamurthy sastry, <a href="tel:+918019265493">+91-8019265493</a></h1>
-                        <p>
-                            Sakala Jyothish Nilayam was established in the year 2013 located at Chinmaya Nagar,Anantapur(AP).
+                    <div class="hs_about_right_cont_wrapper">                       
+                        <h1>Krishnamurthy sastry, <a href="tel:+918019265493">+91-8019265493</a></h1>
+                        <p data-localize="about.text1" class="text-indent-4">
+        Sri  Rodham Krishnasastri father Sri Lakshmipathi Shastri, grandfather Chandrasekhara Shastri and great-grandfather 
+        Sri Gangadhar Shastri were Astrological family from ancient times and His wife Ms. Kalpana is from the Astrol family.
+                        </p>
+                        <p data-localize="about.text2">
+        Their daily routine  beginning with Shivaradhana, Rudra Namaka, Chamaka recitation and seeing astrology and planetary horoscope, 
+        explaining it in detail, providing compensation for that and elaborating severity of the problem.
+                        </p>
+                        <p data-localize="about.me">
+                            Sakala Jyothish Nilayam was located at Chinmaya Nagar,Anantapur.
                             We provide service to the customers both local and as well as other parts of Anantapur.
                             We believe that customer satisfaction is as important as our products and services,
-                             have helped this establishment garner a vast base of customers. 
-                             <br/>
-                             We are known to provide the top service in the following categories: 
-                             <ul>
-                                 <li>Solution for education and career problems</li>
-                                 <li>Solution for Family,Personal,Psychological stress,Health and Financial problems </li>
-                                 <li>Horoscope matching for Marriage,Relationship,Business Partner and Family members</li>
-                                 <li>Vastu shastra consultants for Residence,Shop,Business,Commercial and Factory</li>
-                                 <li>Janma Kundali reading and writing</li>
-                                 <li>Mathru klesha and Children problem</li>
-                                 <li>Worship lessons and Puja</li> 
-                                 <li>Nadi Astrology,Vedic Astrology, Astrology by Thumb Impression </li>
-                                 <li>Solutions/Remedies for Kaal Sarp dosha,Pitra Dosha, Navagraha dosha and other dosha</li>
-                                 <li>Providing solution or suggestion based on a person's moon Nakshatra.</li>
-                             </ul>                             
-                            </p>
+                            have helped this establishment garner a vast base of customers.
+                        </p>
+                        <p>
+                            We are known to provide the top service in the following categories: 
+                            <ul>
+                                <li>Solution for education and career problems</li>
+                                <li>Solution for Family,Personal,Psychological stress,Health and Financial problems </li>
+                                <li>Horoscope matching for Marriage,Relationship,Business Partner and Family members</li>
+                                <li>Vastu shastra consultants for Residence,Shop,Business,Commercial and Factory</li>
+                                <li>Janma Kundali reading and writing</li>
+                                <li>Mathru klesha and Children problem</li>
+                                <li>Worship lessons and Puja</li> 
+                                <li>Nadi Astrology,Vedic Astrology, Astrology by Thumb Impression </li>
+                                <li>Solutions/Remedies for Kaal Sarp dosha,Pitra Dosha, Navagraha dosha and other dosha</li>
+                                <li>Providing solution or suggestion based on a person's moon Nakshatra.</li>
+                            </ul>                             
+                        </p>
 
                             <!-- Astrologers, Pandits, Pandits For Puja, Vastu Shastra Consultants, Pandits For Marriage, 
                             Nadi Astrologers, Astrologers Vastu Guidence, Astrologer Thumb Impressions.
@@ -343,7 +355,7 @@ Astrologer Thumb Impressions -->
                        
                         <div class="hs_effect_btn hs_about_btn">
                             <ul>
-                                <li><a href="#contact" class="hs_btn_hover">Contact</a></li>
+                                <li><a href="#contact" class="hs_btn_hover" data-localize="label.contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -362,9 +374,9 @@ Astrologer Thumb Impressions -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="hs_about_heading_main_wrapper">
                         <div class="hs_about_heading_wrapper">
-                            <h2>Our <span> services</span></h2>
+                            <h2 data-localize="services.heading_main">Our <span> services</span></h2>
                             <h4><span>&nbsp;</span></h4>
-                            <!-- <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat hello Aenean world.</p> -->
+                            <!-- <p></p> -->
                         </div>
                     </div>
                 </div>
@@ -500,7 +512,7 @@ Astrologer Thumb Impressions -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="hs_about_heading_main_wrapper">
                         <div class="hs_about_heading_wrapper">
-                            <h2>Get in Touch</h2>
+                            <h2 data-localize="contact.heading_main">Get in <span>Touch</span></h2>
                             <h4><span>&nbsp;</span></h4>
                             <!-- <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat hello Aenean world.</p> -->
                         </div>
@@ -510,7 +522,7 @@ Astrologer Thumb Impressions -->
                     <div class="hs_contact_title_box_wrapper">
                         <i class="fa fa-map-marker"></i>
                         <div class="inner_wrapper">
-                            <h4>Address</h4>
+                            <h4 data-localize="label.address">Address</h4>
                             <p>
                                 8/125, Renuka Gated Community,
                                 <br>Chinamya Nagar, Anantapur HO,
@@ -523,7 +535,7 @@ Astrologer Thumb Impressions -->
                     <div class="hs_contact_title_box_wrapper">
                         <i class="fa fa-phone"></i>
                         <div class="inner_wrapper">
-                            <h4><a href="tel:+918019265493">Phone</a></h4>
+                            <h4><a href="tel:+918019265493" data-localize="label.phone">Phone</a></h4>
                             <p>
                                 <a href="tel:+918019265493" title="Call">+91-8019265493</a>
                             </p>
@@ -534,7 +546,7 @@ Astrologer Thumb Impressions -->
                     <div class="hs_contact_title_box_wrapper">
                         <i class="fa fa-envelope"></i>
                         <div class="inner_wrapper">
-                            <h4><a target="_blank" href="mailto:rksastry1967@gmail.com">Email</a></h4>
+                            <h4><a target="_blank" href="mailto:rksastry1967@gmail.com" data-localize="label.email">Email</a></h4>
                             <p>
                                 <a target="_blank" href="mailto:rksastry1967@gmail.com" class="text-lowercase">
                                     <span title="Send email">rksastry1967@gmail.com</span>
@@ -564,7 +576,7 @@ Astrologer Thumb Impressions -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-center mt-1 mb-1">
-                        <p class="copyright-desc text-muted mb-0">© Copyright 2020 by <a href="www.adyahtha.com" target="_blank">Adyahtha technologies</a>.  
+                        <p class="copyright-desc text-muted mb-0">© Copyright 2020 by <a href="http://www.adyahtha.com" target="_blank">Adyahtha technologies</a>.  
                             <!-- <i class="mdi mdi-heart text-danger"></i>  -->
                         </p>
                     </div>
@@ -607,16 +619,34 @@ Astrologer Thumb Impressions -->
 
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js');
+            if(navigator.serviceWorker.register){
+                navigator.serviceWorker.register('./sw.js');
+            }            
         }
     </script>
     <script src="./dist/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./src/js/jquery.localize.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        
+        $(document).ready(function(){
+            switchLocalize(document.documentElement.lang);         
+        });
+        function switchLocalize(switchTo){
+            if(!switchTo){
+                switchTo= document.documentElement.lang==="en"?"te":"en";
+            }
+            document.documentElement.lang=switchTo;
+            var opts = {language: switchTo, pathPrefix: "./src/i18n"};
+            $("[data-localize]").localize("app",opts);
+        }
+    </script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 </body>
 
 </html>
