@@ -1,10 +1,6 @@
-# PWA Skeleton
+# Sakala Jotishya Nilayam
 
-A simple Progressive Web App skeleton project.
 
-*Modified from [glenndehaan/esports-pwa](https://github.com/glenndehaan/esports-pwa)*.
-
-![pwa-skeleton demo](https://raw.githubusercontent.com/james2doyle/pwa-skeleton/master/demo.gif)
 
 RUN: npx webpack --config webpack.config.js
 
@@ -20,4 +16,4 @@ npx webpack --watch --config webpack.config.js
 
 ## License
 
-MIT
+Private

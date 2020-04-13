@@ -11,19 +11,18 @@
     "app": {
 		"welcome":"Welcome to",
 		"title":"Sakala Jotishya Nilayam",
-		"description":"Sakala Jyothishya Nilayam, is your place to unlock mysteries of your life with horoscope, planets and psychic reading."
+		"description":"is your place to unlock mysteries of your life with horoscope, planets and psychic reading."
 	},
 	"about":{
 		"heading_main":"About <span>Sakala Jotishya Nilayam</span>",
 		"me":"Sakala Jyothish Nilayam was located at Chinmaya Nagar,Anantapur. We provide service to the customers both local and as well as other parts of Anantapur. We believe that customer satisfaction is as important as our products and services, have helped this establishment garner a vast base of customers.",
 		"text1":"Sri  Rodham Krishnasastri father Sri Lakshmipathi Shastri, grandfather Chandrasekhara Shastri and great-grandfather Sri Gangadhar Shastri were Astrological family from ancient times and His wife Ms. Kalpana is from the Astrol family.",
-		"text2":"Their daily routine  beginning with Shivaradhana, Rudra Namaka, Chamaka recitation and seeing astrology and planetary horoscope,  explaining it in detail, providing compensation for that and elaborating severity of the problem."
-	},
-	"services":{
-		"heading_main":"Our <span>services</span>"
+		"text2":"Their daily routine  beginning with Shivaradhana, Rudra Namaka, Chamaka recitation and seeing astrology and planetary horoscope,  explaining it in detail, providing compensation for that and elaborating severity of the problem.",
+		"topservices":"<p>We are known to provide the top service in the following categories:</p> <ul> <li>Solution for education and career problems</li> <li>Solution for Family,Personal,Psychological stress,Health and Financial problems </li> <li>Horoscope matching for Marriage,Relationship,Business Partner and Family members</li> <li>Vastu shastra consultants for Residence,Shop,Business,Commercial and Factory</li> <li>Janma Kundali reading and writing</li> <li>Mathru klesha and Children problem</li> <li>Nadi Astrology,Vedic Astrology, Astrology by Thumb Impression </li> <li>Providing solution or suggestion based on a person's moon Nakshatra.</li> </ul> "
 	},
 	"contact":{
-		"heading_main":"Get in <span>Touch</span>"
+		"heading_main":"Get in <span>Touch</span>",
+		"address":"8/157,6th Cross,<br>Renuka Gated Community,<br>Next to Mahila Pranganam,<br>Chinamya Nagar, Anantapur - 515002"
 	},
 	"label":{   
 		"about_us":"About Us",
@@ -38,6 +37,61 @@
 		"address":"Address",
 		"phone":"Phone",
 		"email":"Email"		
+	},
+	"services":{
+		"heading_main":"Our <span>services</span>",
+		"matrimonial":{
+			"title":"Matrimonial problems",
+			"description":"Any physical or mental abuse is also a good reason to leave your marriage. At the same time, the two most common reasons for divorce, infidelity and incompatability, are both fixable problems."
+		},
+		"issues":{
+			"title":"Issues",
+			"description":"Here are the problems caused by weak or malefic planets in the horoscope and astrology remedies for health for each planet."
+		},
+		"education":{
+			"title":"Education ",
+			"description":"We provide Student and Education Astrology services to provide solution based your child's birth chart. The Remedies are performed based on the planetary ..."
+		},
+		"jathakm":{
+			"title":"Jathakam - Reading",
+			"description":"Birth chart reading is nothing but an ability synthesizing signs, houses and planets satisfactorily in any given horoscope...."
+		},
+		"balagrahaDosham":{
+			"title":"Balagraha dosha",
+			"description":"This condition is called Balarishta or Bala Graha dosha. Balarishta dosha literally means “problems arising in infancy”. Baalarishta doshas of a new born child threaten the longevity and well-being of the child and also sometimes the prospects of its closest relatives..."
+		},
+		"lakshmiPrapthi":{
+			"title":"Lakshmi yogam prapti",
+			"description":"to get the blessings of goddess laxmi to live a comfortable life, Astrologer For Dhan Prapti Remedies. …"
+		},
+		"astagrahaDosam":{
+			"title":"Ashta graha dosha nivruthi",
+			"description":"Dasha The dasha pattern shows which planets according to Jyotish will be ruling at particular ... Graha, Mahadasha, Lord of Nakshatras ... inimical or debilitation sign or combust or afflicted by papa-grahas or in Rasi-sandhi or in Bhava-sandhi ..."
+		},
+		"pitruDosam":{
+			"title":"Pitra dosha nivruthi",
+			"description":"Pitra Dosha is a Karmic Debt of the ancestors and reflected in the horoscope in the form of planetary combinations. It can also happen due to the neglect of ..."
+		},
+		"mathruKlesha":{
+			"title":"Mathru klesha nivruthi",
+			"description":""
+		},
+		"santhanaPrapthi":{
+			"title":"Santana peeda prapti",
+			"description":"As per the Indan Vedic astrology the 5th house in your horoscope is responsible for the santan even for education and intelligence too. So astrologer gives ..."
+		},
+		"mangalayaDosam":{
+			"title":"Mangalya dosha nivruthi",
+			"description":"Coupled with an infinite belief in God, a woman goes on a quest to protect her unborn child and husband from the influence of evil spirits."
+		},
+		"videshiYogam":{
+			"title":"Videshi yogam",
+			"description":"Foreign Trip। Videsh yatra yog"
+		},
+		"udyogPrapthi":{
+			"title":"Udyoga prapti",
+			"description":""
+		}
 	}
    
 }
