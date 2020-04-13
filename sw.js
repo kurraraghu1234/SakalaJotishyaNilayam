@@ -1,4 +1,4 @@
-const CACHE_NAME = 'app-v0.2';
+const CACHE_NAME = 'app-v0.3';
 const expectedCaches = [CACHE_NAME];
 
 // the list of files that need to be cached
